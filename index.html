@@ -3,16 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Running pirates</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="imgs/icon.png">
+    <title>Meteor Rush</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="icon" href="/imgs/logo.png"
 </head>
 <body>
-    <div class="conteiner">
-        <h1>Running Pirates</h1>
-        <a href="game.html"><button>Jogar</button></a>
+    <header>
+        <nav class="navbar">
+            <div class="icon">
+                <img src="/imgs/logo.png" alt="Meteor Rush">
+            </div>
+            <div class="navlist">
+                <ul>
+                    <li class="navitem"><a href="#" class="navlink">Home</a></li>
+                    <li class="navitem"><a href="#" class="navlink">Sobre o jogo</a></li>
+                    <li class="navitem"><a href="#" class="navlink">Quem desenvolveu?</a></li>
+                </ul>
+            </div>
 
-    </div>
-    
+            <div class="jogarbutton">
+                <button><a href="#">Jogar Agora!</a></button>
+            </div>
+
+            <div class="mobilemenuicon">
+                <button onclick="menuShow()"><img class="icone" src="/imgs/barras.png"></button>
+            </div>
+        </nav>
+
+        <div class="mobilemenu">
+            <ul>
+                <li class="navitem"><a href="#" class="navlink">Home</a></li>
+                <li class="navitem"><a href="#" class="navlink">Sobre o jogo</a></li>
+                <li class="navitem"><a href="#" class="navlink">Quem Desenvolveu?</a></li>
+            </ul>
+
+            <div class="jogarbutton">
+                <button><a href="#">Jogar Agora!</a></button>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="home" class="hero">
+        <h1>Desvie, Atire, Sobreviva.</h1>
+        <p>Prepare-se para a aventura espacial mais intensa do ano.</p>
+    </section>
+
+    <section id="sobre-jogo" class="content-section">
+        <h2>Sobre o Jogo</h2>
+        <p>Meteor Rush é um jogo de ação e sobrevivência no espaço onde seus reflexos são colocados à prova a todo momento.</p>
+
+<p>Você controla uma nave espacial que precisa desviar de uma chuva constante de meteoros perigosos. Cada colisão reduz sua vida, então é preciso habilidade e atenção para continuar no jogo.
+
+<p>Durante a jornada, você pode coletar:</p>
+
+<p>💰 Moedas: aumentam sua pontuação</p>
+<p>❤️ Corações: recuperam vidas perdidas</p>
+
+Além disso, quanto mais tempo você sobrevive, mais pontos você ganha!
+
+O objetivo é simples, mas desafiador:
+sobreviver o máximo possível e alcançar a maior pontuação.
+
+Prepare-se para uma experiência rápida, intensa e viciante!</p>
+    </section>
+
+    <section id="autor" class="content-section bg-alt">
+        <h2>Quem desenvolveu?</h2>
+        <p>O Jogo Meteor Rush foi desenvolvido por mim, Felipe Barros, 18 anos, estudante de Engenharia de Software, no Integrado.</p>
+    </section>
+
+    <section id="jogar" class="play-section">
+        <h2>Pronto para o desafio?</h2>
+        <div class="game-container">
+            <button class="btn-main">Iniciar Missão</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Meteor Rush - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="assests/js/index.js"> </script>
 </body>
+   
 </html>
